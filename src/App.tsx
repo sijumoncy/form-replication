@@ -1,17 +1,16 @@
 import React, { useEffect } from "react";
 import "./App.css";
-import { Provider, useDispatch } from "react-redux";
-import { store, AppDispatch } from "./store/store";
 import { fetchSitecoredata } from "./store/dataSlice";
 import { Box, Container } from "@mui/material";
 import { RouterProvider } from "react-router-dom";
 import router from "./configs/routes";
+import { useAppDispatch } from "./shared/hooks/redux";
 
 function App() {
-  const dispatch = useDispatch<AppDispatch>();
+  const dispatch = useAppDispatch();
 
   useEffect(() => {
-    // dispatch(fetchSitecoredata);
+    dispatch(fetchSitecoredata());
     console.log("Initial data load - sitecore");
   }, [dispatch]);
 

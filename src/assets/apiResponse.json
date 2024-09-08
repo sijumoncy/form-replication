@@ -1,0 +1,541 @@
+{
+    "header": {},
+    "pages": {
+        "Assited X": {
+            "components": [
+                {
+                    "type": "PageComponent",
+                    "id": "componentAccountForm",
+                    "name": "componentAccountForm",
+                    "title": "Page Component",
+                    "class": "",
+                    "style": "",
+                    "container": [
+                        {
+                            "type": "container",
+                            "id": "",
+                            "rows": [
+                                {
+                                    "type": "row",
+                                    "id": "",
+                                    "name": "",
+                                    "title": "",
+                                    "class": "",
+                                    "columns": [
+                                        {
+                                            "type": "column",
+                                            "id": "leftColumnAccountInfoForm",
+                                            "name": "",
+                                            "title": "Column Left",
+                                            "class": "",
+                                            "width": "25%",
+                                            "formGroup": []
+                                        },
+                                        {
+                                            "type": "column",
+                                            "id": "columnAccountInfoForm",
+                                            "name": "columnAccountInfoForm",
+                                            "title": "Column Right",
+                                            "class": "",
+                                            "width": "75%",
+                                            "columnWidth": [
+                                                {
+                                                    "xs": 9,
+                                                    "md": 9,
+                                                    "lg": 9
+                                                }
+                                            ],
+                                            "formGroup": [
+                                                {
+                                                    "type": "formGroup",
+                                                    "id": "formGroupAccountOpeningForm",
+                                                    "name": "formSectionCompanyInformation",
+                                                    "title": "Account Opening Form",
+                                                    "class": "",
+                                                    "formSection": [
+                                                        {
+                                                            "type": "formSection",
+                                                            "id": "formSectionCompnayInformation",
+                                                            "title": "Company Information",
+                                                            "columnsPerRow": 0,
+                                                            "class": "",
+                                                            "formSubSection": [
+                                                                {
+                                                                    "type": "formSubSection",
+                                                                    "id": "",
+                                                                    "title": "",
+                                                                    "name": "",
+                                                                    "width": "",
+                                                                    "fields": [],
+                                                                    "fieldGroup": [
+                                                                        {
+                                                                            "type": "fieldGroup",
+                                                                            "id": "fieldGroupCompanyInformation",
+                                                                            "title": "",
+                                                                            "class": "",
+                                                                            "columnsPerRow": 0,
+                                                                            "width": "",
+                                                                            "fields": [
+                                                                                {
+                                                                                    "id": "corporateName",
+                                                                                    "itemId": "7678905543442636",
+                                                                                    "label": "",
+                                                                                    "name": "",
+                                                                                    "class": "",
+                                                                                    "style": "",
+                                                                                    "placeholder": ""
+                                                                                }
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                },
+                                                                {
+                                                                    "type": "formSubSection",
+                                                                    "id": "digitalChannelSubscription",
+                                                                    "title": "Digital Channel Subscription",
+                                                                    "name": "",
+                                                                    "width": "100%",
+                                                                    "fields": [],
+                                                                    "columnsPerRow": 1,
+                                                                    "fieldGroup": [
+                                                                        {
+                                                                            "type": "fieldGroup",
+                                                                            "id": "subscriberId",
+                                                                            "title": "",
+                                                                            "class": "",
+                                                                            "columnsPerRow": 2,
+                                                                            "width": "",
+                                                                            "fields": [
+                                                                                {
+                                                                                    "id": "existingClient",
+                                                                                    "type": "radio",
+                                                                                    "value": "",
+                                                                                    "title": "",
+                                                                                    "label": "Exiting BO Client",
+                                                                                    "isRequired": false,
+                                                                                    "isReadOnly": false,
+                                                                                    "options": [
+                                                                                        {
+                                                                                            "id": "yes",
+                                                                                            "text": "yes",
+                                                                                            "value": "yes",
+                                                                                            "class": "",
+                                                                                            "isChecked": false
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "no",
+                                                                                            "text": "No",
+                                                                                            "value": "No",
+                                                                                            "class": "",
+                                                                                            "isChecked": false
+                                                                                        }
+                                                                                    ],
+                                                                                    "messages": [],
+                                                                                    "errorMessages": [
+                                                                                        {
+                                                                                            "requiredErrorMessages": "Requiered",
+                                                                                            "validationErrorMessage": "",
+                                                                                            "customErrorMessage": "",
+                                                                                            "noDataErrorMessage": "",
+                                                                                            "fieldErrorMessage": "",
+                                                                                            "codeErrorMessage": ""
+                                                                                        }
+                                                                                    ],
+                                                                                    "columnWidth": [
+                                                                                        {
+                                                                                            "xs": "12",
+                                                                                            "md": "12",
+                                                                                            "lg": "12"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": "subscriberIdoption1",
+                                                                                    "itemId": "76789055434426362325252",
+                                                                                    "type": "text",
+                                                                                    "name": "",
+                                                                                    "label": "Subscriber ID- option 1",
+                                                                                    "placeholder": "",
+                                                                                    "isRequired": false,
+                                                                                    "regex": "^[A-Z]{1}[a-z]{1,5}\\d+$",
+                                                                                    "regexErrorMessage": "Input is invalid",
+                                                                                    "isReadOnly": false,
+                                                                                    "minLength": 0,
+                                                                                    "maxLength": 8,
+                                                                                    "errorMessages": [
+                                                                                        {
+                                                                                            "requiredErrorMessages": "Requiered",
+                                                                                            "validationErrorMessage": "Maximum is 8 character",
+                                                                                            "customErrorMessage": "",
+                                                                                            "noDataErrorMessage": "",
+                                                                                            "fieldErrorMessage": "",
+                                                                                            "codeErrorMessage": ""
+                                                                                        }
+                                                                                    ],
+                                                                                    "columnWidth": [
+                                                                                        {
+                                                                                            "xs": "6",
+                                                                                            "md": "6",
+                                                                                            "lg": "6"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": "subscriberIdoption2",
+                                                                                    "itemId": "76789055434426336363662325252",
+                                                                                    "type": "text",
+                                                                                    "name": "",
+                                                                                    "label": "Subscriber ID- option 2",
+                                                                                    "placeholder": "",
+                                                                                    "isRequired": false,
+                                                                                    "regex": "^[A-Z]{1}[a-z]{1,5}\\d+$",
+                                                                                    "regexErrorMessage": "Input is invalid",
+                                                                                    "isReadOnly": false,
+                                                                                    "minLength": 0,
+                                                                                    "maxLength": 8,
+                                                                                    "errorMessages": [
+                                                                                        {
+                                                                                            "requiredErrorMessages": "Requiered",
+                                                                                            "validationErrorMessage": "Maximum is 8 character",
+                                                                                            "customErrorMessage": "",
+                                                                                            "noDataErrorMessage": "",
+                                                                                            "fieldErrorMessage": "",
+                                                                                            "codeErrorMessage": ""
+                                                                                        }
+                                                                                    ],
+                                                                                    "columnWidth": [
+                                                                                        {
+                                                                                            "xs": "6",
+                                                                                            "md": "6",
+                                                                                            "lg": "6"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "fieldSubGroup": []
+                                                                        },
+                                                                        {
+                                                                            "type": "fieldGroup",
+                                                                            "id": "contactInfo",
+                                                                            "title": "",
+                                                                            "class": "",
+                                                                            "columnsPerRow": 2,
+                                                                            "width": "",
+                                                                            "fields": [
+                                                                                {
+                                                                                    "id": "contactPersonName",
+                                                                                    "itemId": "7678905543442aaga6362325252",
+                                                                                    "type": "text",
+                                                                                    "name": "",
+                                                                                    "label": "Contact Person Name",
+                                                                                    "placeholder": "",
+                                                                                    "isRequired": true,
+                                                                                    "regex": "^[A-Za-z]+$",
+                                                                                    "regexErrorMessage": "Input is invalid",
+                                                                                    "isReadOnly": false,
+                                                                                    "minLength": 0,
+                                                                                    "maxLength": 10,
+                                                                                    "errorMessages": [
+                                                                                        {
+                                                                                            "requiredErrorMessages": "Requiered",
+                                                                                            "validationErrorMessage": "Maximum is 10 character",
+                                                                                            "customErrorMessage": "",
+                                                                                            "noDataErrorMessage": "",
+                                                                                            "fieldErrorMessage": "",
+                                                                                            "codeErrorMessage": ""
+                                                                                        }
+                                                                                    ],
+                                                                                    "columnWidth": [
+                                                                                        {
+                                                                                            "xs": "4",
+                                                                                            "md": "4",
+                                                                                            "lg": "4"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": "contactPersonMobile",
+                                                                                    "type": "tel",
+                                                                                    "name": "",
+                                                                                    "label": "Mobile",
+                                                                                    "placeholder": "",
+                                                                                    "isRequired": true,
+                                                                                    "helperText": "",
+                                                                                    "regex": "^[0-9]{9}$",
+                                                                                    "regexErrorMessage": "Input is invalid",
+                                                                                    "isReadOnly": false,
+                                                                                    "maxLength": 9,
+                                                                                    "codes": [
+                                                                                        {
+                                                                                            "label": "UAE",
+                                                                                            "code": "AE",
+                                                                                            "flag": "",
+                                                                                            "phone": "+971"
+                                                                                        },
+                                                                                        {
+                                                                                            "label": "UK",
+                                                                                            "code": "GB",
+                                                                                            "flag": "",
+                                                                                            "phone": "+44"
+                                                                                        },
+                                                                                        {
+                                                                                            "label": "IN",
+                                                                                            "code": "IN",
+                                                                                            "flag": "",
+                                                                                            "phone": "+91"
+                                                                                        }
+                                                                                    ],
+                                                                                    "errorMessages": [
+                                                                                        {
+                                                                                            "requiredErrorMessages": "Requiered",
+                                                                                            "validationErrorMessage": "Maximum is 10 character",
+                                                                                            "customErrorMessage": "",
+                                                                                            "noDataErrorMessage": "",
+                                                                                            "fieldErrorMessage": "",
+                                                                                            "codeErrorMessage": ""
+                                                                                        }
+                                                                                    ],
+                                                                                    "columnWidth": [
+                                                                                        {
+                                                                                            "xs": "4",
+                                                                                            "md": "4",
+                                                                                            "lg": "4"
+                                                                                        }
+                                                                                    ]
+                                                                                },
+                                                                                {
+                                                                                    "id": "contactPersonEmail",
+                                                                                    "itemId": "767892342405543442aaga6362325252",
+                                                                                    "type": "email",
+                                                                                    "name": "email",
+                                                                                    "label": "Contact Person Email",
+                                                                                    "placeholder": "",
+                                                                                    "isRequired": false,
+                                                                                    "regex": "^[A-Za-z]+$",
+                                                                                    "regexErrorMessage": "Input is invalid",
+                                                                                    "isReadOnly": false,
+                                                                                    "maxLength": 20,
+                                                                                    "errorMessages": [
+                                                                                        {
+                                                                                            "requiredErrorMessages": "Requiered",
+                                                                                            "validationErrorMessage": "Maximum is 20 character",
+                                                                                            "customErrorMessage": "",
+                                                                                            "noDataErrorMessage": "",
+                                                                                            "fieldErrorMessage": "",
+                                                                                            "codeErrorMessage": ""
+                                                                                        }
+                                                                                    ],
+                                                                                    "columnWidth": [
+                                                                                        {
+                                                                                            "xs": "4",
+                                                                                            "md": "4",
+                                                                                            "lg": "4"
+                                                                                        }
+                                                                                    ]
+                                                                                }
+                                                                            ],
+                                                                            "fieldSubGroup": []
+                                                                        },
+                                                                        {
+                                                                            "type": "fieldGroup",
+                                                                            "id": "",
+                                                                            "title": "",
+                                                                            "class": "",
+                                                                            "columnsPerRow": 0,
+                                                                            "width": "",
+                                                                            "fields": [],
+                                                                            "fieldSubGroup": [
+                                                                                {
+                                                                                    "type": "fieldSubGroup",
+                                                                                    "id": "adminSettings",
+                                                                                    "title": "Admin Settings",
+                                                                                    "class": "",
+                                                                                    "columnsPerRow": 0,
+                                                                                    "width": "",
+                                                                                    "fields": [
+                                                                                        {
+                                                                                            "id": "adminSettings",
+                                                                                            "itemId": "436626262",
+                                                                                            "label": "Admin Settings",
+                                                                                            "title": "",
+                                                                                            "name": "adminSettings",
+                                                                                            "isRequired": false,
+                                                                                            "isReadonly": false,
+                                                                                            "errorMessages": [
+                                                                                                {
+                                                                                                    "requiredErrorMessages": "Requiered",
+                                                                                                    "validationErrorMessage": "Maximum is 8 character",
+                                                                                                    "customErrorMessage": "",
+                                                                                                    "noDataErrorMessage": "",
+                                                                                                    "fieldErrorMessage": "",
+                                                                                                    "codeErrorMessage": ""
+                                                                                                }
+                                                                                            ],
+                                                                                            "columnWidth":[
+                                                                                                {
+                                                                                                    "xs":"6",
+                                                                                                    "md":"6",
+                                                                                                    "lg":"6"
+                                                                                                    
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "firstname",
+                                                                                            "itemId": "76783905543442aaga6362325252",
+                                                                                            "type": "text",
+                                                                                            "name": "firstName",
+                                                                                            "label": "first name",
+                                                                                            "placeholder": "",
+                                                                                            "isRequired": true,
+                                                                                            "regex": "^[A-Za-z]+$",
+                                                                                            "regexErrorMessage": "Input is invalid",
+                                                                                            "isReadOnly": false,
+                                                                                            "minLength": 0,
+                                                                                            "maxLength": 10,
+                                                                                            "errorMessages": [
+                                                                                                {
+                                                                                                    "requiredErrorMessages": "Requiered",
+                                                                                                    "validationErrorMessage": "Maximum is 10 character",
+                                                                                                    "customErrorMessage": "",
+                                                                                                    "noDataErrorMessage": "",
+                                                                                                    "fieldErrorMessage": "",
+                                                                                                    "codeErrorMessage": ""
+                                                                                                }
+                                                                                            ],
+                                                                                            "columnWidth": [
+                                                                                                {
+                                                                                                    "xs": "6",
+                                                                                                    "md": "6",
+                                                                                                    "lg": "6"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "lastname",
+                                                                                            "itemId": "76783905543442aaga6362325252",
+                                                                                            "type": "text",
+                                                                                            "name": "lastName",
+                                                                                            "label": "last name",
+                                                                                            "placeholder": "",
+                                                                                            "isRequired": true,
+                                                                                            "regex": "^[A-Za-z]+$",
+                                                                                            "regexErrorMessage": "Input is invalid",
+                                                                                            "isReadOnly": false,
+                                                                                            "minLength": 0,
+                                                                                            "maxLength": 10,
+                                                                                            "errorMessages": [
+                                                                                                {
+                                                                                                    "requiredErrorMessages": "Requiered",
+                                                                                                    "validationErrorMessage": "Maximum is 10 character",
+                                                                                                    "customErrorMessage": "",
+                                                                                                    "noDataErrorMessage": "",
+                                                                                                    "fieldErrorMessage": "",
+                                                                                                    "codeErrorMessage": ""
+                                                                                                }
+                                                                                            ],
+                                                                                            "columnWidth": [
+                                                                                                {
+                                                                                                    "xs": "6",
+                                                                                                    "md": "6",
+                                                                                                    "lg": "6"
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ],
+                                                                                    "fieldSubGroup":[]
+                                                                                },
+                                                                                {
+                                                                                    "type": "fieldSubGroup",
+                                                                                    "id": "otherInfo",
+                                                                                    "title": "Other Info (Optional)",
+                                                                                    "class": "",
+                                                                                    "columnsPerRow": 0,
+                                                                                    "width": "",
+                                                                                    "fields":[
+                                                                                        {
+                                                                                            "id": "WPS",
+                                                                                            "itemId": "76783905543442aaga6362325252",
+                                                                                            "type": "text",
+                                                                                            "name": "wps",
+                                                                                            "label": "WPS",
+                                                                                            "placeholder": "",
+                                                                                            "isRequired": true,
+                                                                                            "regex": "^[A-Za-z]+$",
+                                                                                            "regexErrorMessage": "Input is invalid",
+                                                                                            "isReadOnly": false,
+                                                                                            "minLength": 0,
+                                                                                            "maxLength": 10,
+                                                                                            "errorMessages": [
+                                                                                                {
+                                                                                                    "requiredErrorMessages": "Requiered",
+                                                                                                    "validationErrorMessage": "Maximum is 10 character",
+                                                                                                    "customErrorMessage": "",
+                                                                                                    "noDataErrorMessage": "",
+                                                                                                    "fieldErrorMessage": "",
+                                                                                                    "codeErrorMessage": ""
+                                                                                                }
+                                                                                            ],
+                                                                                            "columnWidth": [
+                                                                                                {
+                                                                                                    "xs": "6",
+                                                                                                    "md": "6",
+                                                                                                    "lg": "6"
+                                                                                                }
+                                                                                            ]
+                                                                                        },
+                                                                                        {
+                                                                                            "id": "gpssa",
+                                                                                            "itemId": "76783905543442aaga6362325252",
+                                                                                            "type": "text",
+                                                                                            "name": "gpssa",
+                                                                                            "label": "GPSSA",
+                                                                                            "placeholder": "",
+                                                                                            "isRequired": true,
+                                                                                            "regex": "^[A-Za-z]+$",
+                                                                                            "regexErrorMessage": "Input is invalid",
+                                                                                            "isReadOnly": false,
+                                                                                            "minLength": 0,
+                                                                                            "maxLength": 10,
+                                                                                            "errorMessages": [
+                                                                                                {
+                                                                                                    "requiredErrorMessages": "Requiered",
+                                                                                                    "validationErrorMessage": "Maximum is 10 character",
+                                                                                                    "customErrorMessage": "",
+                                                                                                    "noDataErrorMessage": "",
+                                                                                                    "fieldErrorMessage": "",
+                                                                                                    "codeErrorMessage": ""
+                                                                                                }
+                                                                                            ],
+                                                                                            "columnWidth": [
+                                                                                                {
+                                                                                                    "xs": "6",
+                                                                                                    "md": "6",
+                                                                                                    "lg": "6"
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    ],
+                                                                                    "fieldSubGroup":[]
+                                                                                }
+                                                                                
+                                                                            ]
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

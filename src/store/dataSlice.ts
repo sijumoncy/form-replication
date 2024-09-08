@@ -16,8 +16,9 @@ const initialState: IInitialState = {
 export const fetchSitecoredata = createAsyncThunk<any>(
   "data/fetchSitecoredata",
   async (): Promise<any> => {
-    const response = await fetch("/");
+    const response = await fetch("http://localhost:8000/pages");
     const data = await response.json();
+    console.log("sitecore : data ==> ", data);
     return data;
   }
 );
@@ -42,4 +43,4 @@ const dataslice = createSlice({
   },
 });
 
-export default dataslice;
+export default dataslice.reducer;
