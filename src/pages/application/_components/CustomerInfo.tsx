@@ -1,13 +1,12 @@
 import { Box, Typography } from "@mui/material";
 import React from "react";
+import SectionHead from "../../../shared/components/Typography/SectionHead";
 
 function CustomerInfo() {
   return (
     <>
       <Box minHeight="100%">
-        <Typography variant="body1" component="p">
-          Customer Info
-        </Typography>
+        <SectionHead head="Customer Information" />
       </Box>
     </>
   );

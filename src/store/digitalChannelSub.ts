@@ -7,20 +7,23 @@ interface digitalChannelSubState {
 const initialState = {
     loading : false,
     error : null,
+    digitalSubChanneldata : null 
 }
 
 export const digitalChannelSubSlice = createSlice({
     name : 'digitalChannelSub',
     initialState,
     reducers:{
-        setField : (state : any, action: PayloadAction<{fiieldName: keyof digitalChannelSubState, value: any}>) => {
-            state[action.payload.fiieldName] = action.payload.value
-        }
+        setDigitalChannelSliceField : (state : any, action: PayloadAction<{fiieldName: keyof digitalChannelSubState | any, value: any}>) => {
+            const {fiieldName,value} = action.payload
+            state[fiieldName] = value
+        },
+        
     },
     extraReducers: (builder) => {}
 })
 
-export const {setField} = digitalChannelSubSlice.actions;
+export const {setDigitalChannelSliceField} = digitalChannelSubSlice.actions;
 
 export default digitalChannelSubSlice.reducer;
 
