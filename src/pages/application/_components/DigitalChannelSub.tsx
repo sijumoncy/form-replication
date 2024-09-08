@@ -4,17 +4,15 @@ import { useAppSelector } from "../../../shared/hooks/redux";
 
 function DigitalChannelSub() {
   // const coreData = useSelector((state: RootState) => state.data);
-  const data = useAppSelector((state) => state);
-
-  console.log("core data ==> ", data);
+  const data = useAppSelector((state) => state.data);
 
   return (
     <>
-      <Box minHeight="100vh" justifyContent="center" alignItems="center">
+      <Box minHeight="20vh" justifyContent="center" alignItems="center">
         <Typography variant="body1" component="p">
           Digital Channel Subscribe
         </Typography>
-        <pre></pre>
+        <pre>{JSON.stringify(data)}</pre>
       </Box>
     </>
   );

@@ -1,8 +1,9 @@
 import React from "react";
 import Grid from "@mui/material/Grid2";
-import { Container, Typography } from "@mui/material";
-import CustomerInfo from "./_components/CustomerInfo";
-import DigitalChannelSub from "./_components/DigitalChannelSub";
+import { Box, Container, Typography } from "@mui/material";
+import { CustomerInfoSection } from "./CustomerInfoSection";
+import DigitalChannelSubSection from "./DigitalChannelSubSection";
+import BoundryBox from "./_components/BoundryBox";
 
 export const ApplicationForm: React.FC = () => {
   return (
@@ -13,10 +14,21 @@ export const ApplicationForm: React.FC = () => {
         </Typography>
       </Grid>
 
-      <Grid size={{ xs: 12, md: 8, lg: 9 }}>
+      <Grid paddingY={3} size={{ xs: 12, md: 8, lg: 9 }}>
         <Container>
-          <CustomerInfo />
-          <DigitalChannelSub />
+          <Box
+            component={"div"}
+            display={"flex"}
+            flexDirection={"column"}
+            gap={2}
+          >
+            <BoundryBox>
+              <CustomerInfoSection />
+            </BoundryBox>
+            <BoundryBox>
+              <DigitalChannelSubSection />
+            </BoundryBox>
+          </Box>
         </Container>
       </Grid>
     </Grid>
